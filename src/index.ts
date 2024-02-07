@@ -14,6 +14,11 @@ if (Network === undefined) {
 
 const wallet = new Wallet(new Map());
 const router = new Router(wallet);
+var handlers: any = {
+  advance_state: handle_advance,
+  inspect_state: handle_inspect,
+};
+
 const send_request = async (output: Output | Set<Output>) => {
   if (output instanceof Output) {
     let endpoint;
@@ -124,11 +129,6 @@ async function handle_inspect(data: any) {
     return new Error_out(error_msg);
   }
 }
-
-var handlers: any = {
-  advance_state: handle_advance,
-  inspect_state: handle_inspect,
-};
 
 var finish = { status: "accept" };
 
