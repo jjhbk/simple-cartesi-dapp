@@ -318,18 +318,18 @@ call-bind@^1.0.0, call-bind@^1.0.2:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
 
-cartesi-router@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/cartesi-router/-/cartesi-router-1.0.2.tgz"
-  integrity sha512-qZyolYeM0qMOMMediG6+Q/4rseHSFYIa/EKxJCD3y8SPnYY4uwlZVb82SXP16tBMyuklHQyCbWM9K7pm2xDd4Q==
+cartesi-router@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/cartesi-router/-/cartesi-router-1.0.4.tgz"
+  integrity sha512-tRzAWPoEEP199O9Fis1/YccK14ZW4udTtdPkjAZd7Kdp1r3iBdGKKLAbIpD8Imh+kZSyXHQwNNofWD24PYewkQ==
   dependencies:
     cartesi-wallet "^1.0.1"
     viem "^2.7.6"
 
-cartesi-wallet@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/cartesi-wallet/-/cartesi-wallet-1.0.1.tgz"
-  integrity sha512-o7jCg+UKJbQoWBuWaFxaN0uCeb1FWsu4vt5PVL7IKFdnxHOEJFuY/ip821hzb+hN7Xy6dUKYHZNmuQ3K9qrqTA==
+cartesi-wallet@^1.0.1, cartesi-wallet@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/cartesi-wallet/-/cartesi-wallet-1.0.4.tgz"
+  integrity sha512-TrAlDrRLwxbF+ZiJCmmPWNg356TaAxvlWHeBypiWhOsaCDhcuRBcsspj8xezwfUG4b+yKxnqI6g+UVHrlDadSQ==
   dependencies:
     ethers "^6.10.0"
     viem "^2.7.3"
